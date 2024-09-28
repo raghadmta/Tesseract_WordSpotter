@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-WordSpotter is a web application that uses Tesseract OCR to detect and highlight words or phrases within images. The project provides two ways to perform OCR:
+WordSpotter is a web application that uses Tesseract OCR to detect and highlight words (in Arabic and English) or phrases within images. The project provides two ways to perform OCR:
 
 - Backend (Server-Side): Utilizes the [Tesseract NuGet package](https://www.nuget.org/packages/tesseract/) to run OCR on the server for process images and extract text.
 - Frontend (Client-Side): Uses [Tesseract.js](https://tesseract.projectnaptha.com/), a JavaScript version of Tesseract, to perform OCR directly in the browser.
