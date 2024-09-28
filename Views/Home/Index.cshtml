@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Tesseract Card (Backend) -->
+        <div class="col-md-6">
+            <a asp-action="Index" asp-controller="Tesseract" class="text-decoration-none card-link-backend">
+                <div class="card h-100">
+                    <img src="~/images/tesseract.png" class="card-img-top tesseract-img" alt="Tesseract Logo" style="height: 200px; object-fit: contain;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tesseract (Backend)</h5>
+                        <p class="card-text">Tesseract is an OCR engine, typically used in the backend to perform OCR tasks on the server.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Tesseract.js Card (Frontend) -->
+        <div class="col-md-6">
+            <a asp-action="Index" asp-controller="JSTesseract" class="text-decoration-none card-link-frontend">
+                <div class="card h-100">
+                    <img src="~/images/tesseract.png" class="card-img-top jstesseract-img" alt="Tesseract.js Logo" style="height: 200px; object-fit: contain;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tesseract.js (Frontend)</h5>
+                        <p class="card-text">Tesseract.js is a JavaScript library for OCR that runs directly in the browser (frontend).</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+ 
